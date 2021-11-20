@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Insomnia Cafe</title>
 </head>
 <body>
-    <header>
-        <section class="cabecalho">
+    <header id="cabecalho">
+        <section class="logo">
             <a href="#">
                 <img src="#" alt="logo Insomnia Cafe">
             </a>
@@ -23,62 +23,95 @@
             </a>
         </section>
         <nav>
-            <a class="navegacao" href="#">Sobre nós</a>
-            <a class="navegacao" href="#">Categorias</a>
-            <a class="navegacao" href="#">Contato</a>
+            <a target="_self" class="navegacao" href="#">Sobre nós</a>
+            <a target="_self" class="navegacao" href="#">Categorias</a>
+            <a target="_self" class="navegacao" href="#">Contato</a>
         </nav>
     </header>
     <main>
-        <!-- Aqui terão os produtos -->
-        <div class="produto">
+        <!-- Box produto
+            <div class="produto">
+            <a href="#">
+                <img src="" alt="">
+                <h3>Nome do Produto</h3>
+                <h2>R$ 00</h2>
+            </a>
+        </div>         -->
+        <!-- Talvez criar um quadro de imagens aqui -->
+        <h1>Mais vendidos</h1>
+            <section class="listadeproduto">
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+            </section>
+        <h1>Cafés</h1>
+            <section class="listadeproduto">
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+            </section>      
 
-        </div>
+        <h1>Chás</h1>
+            <section class="listadeproduto">
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="#">
+                        <img src="" alt="">
+                        <h3>Nome do Produto</h3>
+                        <h2>R$ 00</h2>
+                    </a>
+                </div>
+            </section>  
     </main>
-    <!-- <body>
-        <header>
-            <div>
-                <a href="#">
-                    <img src="media/Color logo - no background.png" class="logo" alt="">
-                </a>
-            </div>
-            <ul class="links">
-                <li>
-                    <a target="_blank" href="#">github</a> 
-                </li>
-                <li>
-                    <a target="_blank" href="#">behance</a>
-                </li>
-                <li>
-                    <a target="_blank" href="#">whatsapp</a>
-                </li>
-            </ul>
-        </header>
-            <main>
-                <section class="container">
-                    <div class="name">
-                        <h1>Leonardo Alves</h1>
-                        <h5>Dev Fullstack</h5>
-                    </div>
-                    <div id="arrow">
-                    </div>
-                    <div>
-                        <p id="about">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur quidem vitae atque inventore facilis doloribus odio, consectetur tempore debitis placeat. Magni quae maxime at quibusdam minus numquam. Sapiente, ab?
-                        </p>
-                    </div>
-                    <div class="form">
-                        <div>
-                            <p>deixe eu contato:</p>
-                        </div>
-                        <form action="">
-                            <input type="text" placeholder="seu e-mail aqui :)">
-                            <button>enviar</button>
-                        </form>
-    
-                    </div>
-                </section>
-            </main>
-     -->
     <footer>
         Site criado por <strong>Leonardo Alves</strong> para o nanodegree da <strong>Gama Academy</strong>.
     </footer>

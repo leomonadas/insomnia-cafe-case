@@ -1,0 +1,44 @@
+* {
+    
+}
+
+#cabecalho {
+    background-color: rgb(63, 61, 61);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        gap: 10px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.produto {
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    background-color: rgb(247, 204, 140);
+    width: 25vh;
+    margin: 10px;
+    
+
+}
+
+.listadeproduto {
+    display: flex;
+}
