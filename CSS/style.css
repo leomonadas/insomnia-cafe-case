@@ -35,10 +35,12 @@ body {
     background-color: rgb(247, 204, 140);
     width: 25vh;
     margin: 10px;
+    padding: 10px;
     
 
 }
 
 .listadeproduto {
     display: flex;
+    
 }
