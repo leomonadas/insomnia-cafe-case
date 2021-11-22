@@ -3,13 +3,11 @@
 * {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    padding: 0;
 }
 
 header {
     background-color: #45CBB2;
-    width: 100%;
+    width: 100vh;
 }
 
 .logo {
@@ -89,98 +87,4 @@ header {
 .barrapesquisa {
     display: flex;
     justify-content: center;
-}
-
-.listadeproduto {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.produto {
-    border: 1px solid blue;    
-    margin: 10px;
-    padding: 10px;
-}
-
-.produto img {
-    width: 235px;
-    height: 196px;
-}
-
-main>h1 {
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-.produto h3 {
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.produto h2 {
-    font-weight: 500;
-    font-size: 30px;
-    margin: 0 auto;
-}
-
-footer {
-    background-color: aqua;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-@media only screen and (max-width: 376px) {
-    
-    .logo {
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     padding-right: 20px;
- }
-
- .produto {
-    border: 1px solid blue;    
-    margin: 10px;
-    padding: 10px;
-    width: 260px;
-    height: 200px;
- }
-
- .produto img {
-     width: 117px;
-     height: 98px;
- }
-
- .produto h3 {
-    font-weight: 400;
-    font-size: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-}
-
-@media only screen and (max-width: 1024px) {
-    .logo {
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     padding-right: 20px;
- }
-
- .produto {
-     display: flex;
-     flex-wrap: wrap;
-     border: 1px solid blue;    
-     margin: 10px;
-     padding: 10px;
- }
-
- .produto img {
-     width: 117px;
-     height: 98px;
- }
 }
