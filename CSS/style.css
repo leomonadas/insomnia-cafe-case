@@ -5,30 +5,76 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#cabecalho {
-    background-color: rgb(63, 61, 61);
+header {
+    background-color: #45CBB2;
 }
 
 .logo {
     display: flex;
     justify-content: space-around;
-    padding-top: 25px;
 }
 
-nav {
-    display: flex;
+.tamlogo {
     justify-content: center;
+    width: 240px;
+    height: 138px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.dropbtn {
+    background-color: #5c7acc;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 6px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+      background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #4d3e8e;
 }
 
 .navegacao {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-        gap: 10px;
-}
-
-body {
-    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    gap: 10px;    
 }
 
 .barrapesquisa {
@@ -36,39 +82,33 @@ body {
     justify-content: center;
 }
 
-.categorias {
-    display: flex;
-    justify-content: center;
-    margin: 0px 20px;
-    gap: 20px;
-}
-
 .listadeproduto {
     display: flex;
     justify-content: center;
 }
 
-main h1 {
-    /* para web */
-    margin-left: 21.5%;
-    /* para mobile 
-    margin-left: 2%; */
-}
-
 .produto {
-    border-style: solid;
-    border-width: 1px;
-    text-decoration: none;
-    background-color: rgb(247, 204, 140);
-    width: 25vh;
+    display: inline-block;
+    border: 1px solid blue;    
     margin: 10px;
     padding: 10px;
+}
+
+.produto img {
+    width: 235px;
+    height: 196px;
+}
+
+main>h1 {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .produto h3 {
     font-weight: 400;
     font-size: 1em;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 .produto h2 {
@@ -77,3 +117,9 @@ main h1 {
     margin: 0 auto;
 }
 
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
