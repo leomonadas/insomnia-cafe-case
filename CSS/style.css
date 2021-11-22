@@ -15,6 +15,7 @@ header {
 .logo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding-right: 20px;
 }
@@ -104,12 +105,13 @@ header {
 }
 
 .produto img {
+    display: block;
     width: 235px;
     height: 196px;
 }
 
 main>h1 {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -133,54 +135,45 @@ footer {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 380px) {
     
-    .logo {
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     padding-right: 20px;
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 20px;
  }
 
  .produto {
+    display: flex;
+    flex-direction: row;
     border: 1px solid blue;    
     margin: 10px;
     padding: 10px;
-    width: 260px;
-    height: 200px;
  }
 
  .produto img {
-     width: 117px;
-     height: 98px;
+    width: 117px;
+    height: 98px;
+ }
+
+ .produto h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0 auto;
  }
 
  .produto h3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     padding-top: 10px;
 }
 }
 
-@media only screen and (max-width: 1024px) {
-    .logo {
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     padding-right: 20px;
- }
-
- .produto {
-     display: flex;
-     flex-wrap: wrap;
-     border: 1px solid blue;    
-     margin: 10px;
-     padding: 10px;
- }
-
- .produto img {
-     width: 117px;
-     height: 98px;
- }
-}
