@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
 * {
-    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
@@ -28,6 +31,30 @@ body {
     margin: 0 auto;
 }
 
+.barrapesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+    gap: 20px;
+}
+
+.listadeproduto {
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    /* para web */
+    margin-left: 21.5%;
+    /* para mobile 
+    margin-left: 2%; */
+}
+
 .produto {
     border-style: solid;
     border-width: 1px;
@@ -36,11 +63,17 @@ body {
     width: 25vh;
     margin: 10px;
     padding: 10px;
-    
-
 }
 
-.listadeproduto {
-    display: flex;
-    
+.produto h3 {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0 auto;
 }
+
+.produto h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
