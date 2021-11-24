@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/stylesobrenos.css">
     <title>Insomnia Cafe</title>
 </head>
 <body>
@@ -13,47 +13,64 @@
             <a href="index.html">
                 <img class="tamlogo" src="imagens/Insomnia Cafe-logos_transparent_edit.png" alt="logo Insomnia Cafe">
             </a>
-            <form action="pesquisa" class="barrapesquisa">
-                <input type="text" placeholder=" Pesquise o seu café favorito aqui">
-                <button>Pesquisar</button>
-            </form>
-            <a href="#"> 
-                <img class="cadastro" src="imagens/icone-perfil.png" alt="icone de perfil">
-                Entre ou cadastre-se
-            </a>
-            <a href="#">
-                <img src="imagens/pngwing.com.png" alt="carrinho">
-            </a>
-        </div>
-        <ul class="nav">
-            <li>
-                <div class="dropdown">
-                    <button class="dropbtn">Categorias</button>
-                    <div class="dropdown-content">
-                        <a href="comidas.html">Comidas</a>
-                        <a href="bebidasfrias.html">Bebidas frias</a>
-                        <a href="bebidasquentes.html">Bebidas quentes</a>  
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="dropdown">
-                    <a href="nossahistoria.html">
-                        <button class="dropbtn">Nossa história</button>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="dropdown">
+            
+            <div id="pesquisar">
+                <form action="pesquisa" class="barrapesquisa">
+                    <input type="text" placeholder="Pesquise o seu café favorito aqui">
+                    <button>Pesquisar</button>
+                </form>
+            </div>
+            <ul class="nav">
+                <li>
                     <a href="#">
-                        <button class="dropbtn">Contato</button>
+                        <img class="iconeperfil" src="imagens/icone-perfil.png" alt="">
                     </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="iconecarrinho" src="imagens/pngwing.com.png" alt="carrinho">
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="categoriassite">
+            <div class="dropdown">
+                <button class="dropbtn">Categorias</button>
+                <div class="dropdown-content">
+                    <a href="comidas.html">Comidas</a>
+                    <a href="bebidasfrias.html">Bebidas frias</a>
+                    <a href="bebidasquentes.html">Bebidas quentes</a>
                 </div>
-            </li>
-        </ul>
+            </div>
+            <div class="linksuteis">
+                <ul class="nav">
+                    <li>
+                        <a href="nossahistoria.html">Nossa história</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        
+        <h1>Insomnia Cafe nasceu de um sonho...</h1>
+        <div class="nossahistoria">
+            <img class="imagemloja" src="imagens/cafeteriafoto1.jpg" alt="">
+            <div  class="textonossahistoria">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quia facilis sequi, soluta iure nisi harum molestias aliquid quisquam assumenda culpa, maiores sint magni laudantium asperiores deserunt! Quaerat vitae provident eius tempora nulla dolor ex fugiat nemo cupiditate distinctio! Laboriosam a maiores distinctio, explicabo velit nam eius tenetur quasi labore.</p>
+            </div>
+        </div>
+        <div class="nossahistoria">
+            <div class="textonossahistoria">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, saepe est iusto facilis, quasi perferendis optio unde cumque error nemo deleniti iure numquam eligendi rem tenetur hic magnam? Laborum libero sunt nobis ducimus molestias explicabo, animi sit, nihil asperiores repellendus fugiat provident sint et? Possimus saepe perferendis itaque soluta odit.</p>
+            </div>
+            <img class="imagemloja" src="imagens/cafeteriafoto2.jpg" alt="">
+        </div>
     </main>
     <footer>
         <p>Site criado por <strong>Leonardo Alves</strong> para o nanodegree da <strong>Gama Academy</strong>.</p>
