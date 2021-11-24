@@ -28,6 +28,7 @@ header {
 .cabecalho a {
     color: white;
     font-weight: 500;
+    margin: 10px;
 }
 
 .cabecalho a:hover {
@@ -168,6 +169,8 @@ main>h1 {
     font-size: 20px;
     margin: 0 auto;
     padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .produto h2 {
@@ -175,6 +178,8 @@ main>h1 {
     font-weight: 500;
     font-size: 30px;
     margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .produto:hover {
@@ -189,55 +194,36 @@ footer {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 380px) {
-.barrapesquisa {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
+@media only screen and (max-width: 800px) {
+    
+    .tamlogo {
+        width: 150px;
+        height: 86px;
+    }
 
-.dropbtn {
-    background-color: #5c7acc;
-    color: white;
-    padding: 1em;
-    font-size: 0.9em;
-    border: none;
-    cursor: pointer;
-    transition: all 300ms ease-out;
-    border-radius: none;
-}
+    .dropbtn {
+        padding: 0.9em;
+        font-size: 0.9em;
+    }
+    
+    .produto img {
+        width: 117px;
+        height: 98px;
+    }
+    }
 
-.produto {
-    display: flex;
-    flex-direction: row;   
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 1px 1px 10px #0000002d;
-    border-radius: 5px;
-}
+@media only screen and (max-width: 520px) {
+    
+    .barrapesquisa {
+        margin-bottom: 10px;
+    }
 
-.produto img {
-    width: 117px;
-    height: 98px;
-}
+    .produto {
+        display: flex;
+        flex-direction: row;   
+    }      
+    }
+        
 
-.produto h2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    font-weight: 500;
-    font-size: 1.5em;
-    margin: 0 auto;
-}
 
-.produto h3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-}
 
