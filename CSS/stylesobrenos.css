@@ -160,8 +160,11 @@ main>h1 {
 
 .imagemloja {
     width: 50%;
+    margin-right: 2em;
+    margin-left: 2em;
     margin-bottom: 20px;
-    padding: 0em 2em;
+    box-shadow: 1px 1px 10px #8fc0d473;
+    border-radius: 5px;
 }
 
 footer {
@@ -237,4 +240,22 @@ footer {
     padding: 1em;
     font-size: 1em;
 }    
+
+main>h1 {
+    font-size: 1.5em;
+}
+
+.nossahistoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textonossahistoria{
+    padding: 1em 2em;
+}
+
+.imagemloja {
+    width: 80%;
+    margin-bottom: 0px;
 }
