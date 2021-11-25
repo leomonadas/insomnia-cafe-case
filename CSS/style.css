@@ -28,7 +28,6 @@ header a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    padding-right: 20px;
 }
 
 .tamlogo {
@@ -137,7 +136,7 @@ header a {
 .banner {
     display: block;
     width: 95%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
@@ -155,7 +154,7 @@ header a {
 
 .produto { 
     background-color: white;
-    width: 250px;
+    width: 350px;
     height: 300px;
     margin: 10px;
     padding: 10px;
@@ -168,6 +167,29 @@ header a {
     width: 235px;
     height: 196px;
     margin-top: 10px;
+}
+
+.nomeproduto {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.comprar { 
+    background-color: #FCDEC0;
+    color: #483434;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 5px;
+}
+
+.comprar:hover {
+    background-color: #865439;
+    color: white;
 }
 
 main>h1 {
@@ -189,7 +211,7 @@ main>h1 {
 .produto h2 {
     color: #483434;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     padding-right: 10px;
     padding-left: 10px;
@@ -241,7 +263,7 @@ footer {
 .produto { 
     background-color: white;
     width: 250px;
-    height: 200px;
+    height: 230px;
     margin: 10px;
     padding: 10px;
     box-shadow: 1px 1px 10px #8fc0d471;
@@ -296,8 +318,6 @@ footer {
 }
 
 .produto {
-    display: flex;
-    justify-content: center; 
     width: 80%;
     height: 40%;  
 }      
