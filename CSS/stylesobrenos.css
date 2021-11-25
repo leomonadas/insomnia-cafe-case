@@ -142,7 +142,7 @@ header a {
     text-decoration: underline;
 }
 
-main>h1 {
+h1 {
     color: #483434;
     margin: 2em;
     text-align: center;
@@ -155,6 +155,7 @@ main>h1 {
 }
 
 .textonossahistoria{
+    color: #483434;
     padding: 2em;
 }
 

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f5f5;
+}
+
+header {
+    background-color: #C68B59;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px #8fc0d471;
+}
+
+header a {
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.tamlogo {
+    width: 240px;
+    height: 138px;
+}
+
+.barrapesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+.barrapesquisa input {
+    width: 380px;
+    min-width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.barrapesquisa button {
+    width: 25%;
+    padding: 5px 10px;
+    background-color: #FCDEC0;
+    color: #483434;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.barrapesquisa button:hover {
+    background-color: #865439;
+    color: white;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none; 
+}
+
+.iconeperfil {
+    width: 45px;
+    height: 45px;
+}
+
+.dropbtn {
+    background-color: #FCDEC0;
+    color: #483434;
+    padding: 16px 100px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 296.475px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #483434;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #865439;
+    color: white;
+}
+
+.categoriassite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.linksuteis a:hover {
+    color: #483434;
+    text-decoration: underline;
+}
+
+.produtoprincipal {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin: 20px 50px 0px 50px;
+    padding: 25px;
+    box-shadow: 1px 1px 10px #8fc0d471;
+    border-radius: 5px;
+}
+
+.fotoproduto {
+    width: 40%;
+    margin: 0px;
+}
+
+.preco {
+    display: inline-flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #483434;
+    margin: 2em;
+    margin: 50px;
+}
+
+.caracteristicaproduto{
+    color: #483434;
+}
+
+.caracteristicaproduto h1{
+    margin: 0px;
+}
+
+hr {
+    display: flex;
+    margin: 50px;
+	border: 0;
+	border-top: 1px solid #483434;
+}
+
+.informacoes {
+    background-color: white;
+    align-items: center;
+    margin: 0px 50px;
+    padding: 25px;
+    box-shadow: 1px 1px 10px #8fc0d471;
+    border-radius: 5px;
+}
+
+.listadeproduto {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.produto { 
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #8fc0d471;
+    border-radius: 5px;
+}
+
+.produto img {
+    display: block;
+    width: 235px;
+    height: 196px;
+}
+
+.produto h3 {
+    color: #483434;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.produto h2 {
+    color: #483434;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.produto:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color:white;
+    background-color: #C68B59;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1030px) {
+.cabecalho {
+    gap: 15px;
+    margin: 0 10px;
+}
+
+.tamlogo {
+    width: 150px;
+    height: 86px;
+}
+
+.barrapesquisa input {
+    max-width: 250px;
+    width: 220px;
+    min-width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    transition: all 300ms;
+}
+
+.iconeperfil {
+    width: 35px;
+    height: 35px;
+}
+
+.iconecarrinho {
+    width: 40px;
+    height: 40px;
+}
+}
+
+@media only screen and (max-width: 520px) {
+.cabecalho {
+    padding: 0em;
+}
+    
+.header a {
+    margin-right: 0em;
+    padding-right: 0em;
+}
+
+.iconeperfil {
+    width: 25px;
+    height: 25px;
+}
+
+.iconecarrinho {
+    width: 30px;
+    height: 30px;
+}
+
+.barrapesquisa {
+    margin-bottom: 10px;
+}
+
+.perfilcarrinho {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.dropbtn {
+    padding: 1em;
+    font-size: 1em;
+}    
+
+main>h1 {
+    font-size: 1.5em;
+}
+
+.nossahistoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textonossahistoria{
+    padding: 1em 2em;
+}
+
+.imagemloja {
+    width: 80%;
+    margin-bottom: 0px;
+}
