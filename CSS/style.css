@@ -193,6 +193,7 @@ main>h1 {
 
 .produto:hover {
     text-decoration: underline;
+    color: #483434;
 }
 
 footer {
@@ -273,6 +274,10 @@ footer {
 .dropbtn {
     padding: 1em;
     font-size: 1em;
+}
+
+.listadeproduto {
+    flex-direction: column;
 }
 
 .produto {
