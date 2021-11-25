@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Insomnia Cafe</title>
+    <link rel="stylesheet" href="CSS/stylecontato.css">
+    <title>Contato</title>
 </head>
 <body>
     <header>
@@ -13,7 +13,6 @@
             <a href="index.html">
                 <img class="tamlogo" src="imagens/Insomnia Cafe-logos_transparent_edit.png" alt="logo Insomnia Cafe">
             </a>
-            
             <div id="pesquisar">
                 <div class="barrapesquisa">
                     <form action="pesquisa">
@@ -24,7 +23,7 @@
             </div>
             <ul class="nav">
                 <li>
-                    <a  href="#">
+                    <a href="#">
                         <img class="iconeperfil" src="imagens/icone-perfil.png" alt="">
                     </a>
                 </li>
@@ -34,6 +33,7 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </div>
         <div class="categoriassite">
             <div class="dropdown">
@@ -57,30 +57,16 @@
         </div>
     </header>
     <main>
-        <h1>Comidas</h1>
-            <section class="listadeproduto">
-                <a class="produto" href="produtos_comidas/proddonnut.html">
-                    <img class="imagemproduto" src="imagens/comidas/donnuts.png" alt="Donnut">
-                    <div class="nomeproduto">
-                        <h3>Donnut</h3>
-                        <h2>R$ 1,50</h2>
-                    </div>
-                </a>
-                <a class="produto" href="produtos_comidas/prodqueijoquente.html">
-                    <img class="imagemproduto" src="imagens/comidas/queijoquente.png" alt="Queijo Quente">
-                    <div class="nomeproduto">
-                        <h3>Queijo Quente</h3>
-                        <h2>R$ 2,50</h2>
-                    </div>
-                </a>
-                <a class="produto" href="produtos_comidas/prodsanduiche.html">
-                    <img class="imagemproduto" src="imagens/comidas/sanduiche.png" alt="Sanduíche">
-                    <div class="nomeproduto">
-                        <h3>Sanduíche</h3>
-                        <h2>R$ 3,99</h2>
-                    </div>
-                </a>
-            </section> 
+        <h1>Contato</h1>
+        <div class="formulario">
+            <form action="enviar">
+                <input type="text" placeholder="Digite seu nome completo">
+                <input type="text" placeholder="Digite seu melhor e-mail">
+                <input type="text" placeholder="Digite seu número de celular">
+                <input class="mensagem" type="text" placeholder="Sua mensagem">
+            </form>
+        </div>
+        <button class="enviar">Enviar</button>
     </main>
     <footer>
         <p>Site criado por <strong>Leonardo Alves</strong> para o nanodegree da <strong>Gama Academy</strong>.</p>

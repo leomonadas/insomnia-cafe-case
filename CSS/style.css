@@ -148,12 +148,15 @@ header a {
 .listadeproduto {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .produto { 
     background-color: white;
+    width: 250px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
     box-shadow: 1px 1px 10px #8fc0d471;
@@ -164,6 +167,7 @@ header a {
     display: block;
     width: 235px;
     height: 196px;
+    margin-top: 10px;
 }
 
 main>h1 {
@@ -204,7 +208,7 @@ footer {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
 .cabecalho {
     margin: 0 10px;
 }
@@ -233,7 +237,17 @@ footer {
     width: 40px;
     height: 40px;
 }
-    
+
+.produto { 
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #8fc0d471;
+    border-radius: 5px;
+}
+
 .produto img {
     width: 117px;
     height: 98px;
@@ -278,11 +292,14 @@ footer {
 
 .listadeproduto {
     flex-direction: column;
+    align-content: center
 }
 
 .produto {
     display: flex;
-    flex-direction: row;   
+    justify-content: center; 
+    width: 80%;
+    height: 40%;  
 }      
 }
         

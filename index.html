@@ -14,10 +14,12 @@
                 <img class="tamlogo" src="imagens/Insomnia Cafe-logos_transparent_edit.png" alt="logo Insomnia Cafe">
             </a>
             <div id="pesquisar">
-                <form action="pesquisa" class="barrapesquisa">
-                    <input type="text" placeholder="Pesquise o seu café favorito aqui">
+                <div class="barrapesquisa">
+                    <form action="pesquisa">
+                        <input type="text" placeholder="Pesquise o seu café favorito aqui">
+                    </form>
                     <button>Pesquisar</button>
-                </form>
+                </div>
             </div>
             <ul class="nav">
                 <li>
@@ -47,7 +49,7 @@
                         <a href="nossahistoria.html">Nossa história</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="paginacontato.html">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +57,7 @@
     </header>
     <main>
         <div>
-            <img class="banner" src="imagens/banner_index.png" alt="">
+            <a href="index.html"><img class="banner" src="imagens/banner_index.png" alt=""></a>
         </div>
         <h1>Mais vendidos</h1>
             <section class="listadeproduto">
@@ -64,6 +66,13 @@
                     <div class="nomeproduto">
                         <h3>Café Mocha</h3>
                         <h2>R$ 6,49</h2>
+                    </div>
+                </a>
+                <a class="produto" href="produtos_comidas/prodqueijoquente.html">
+                    <img class="imagemproduto" src="imagens/comidas/queijoquente.png" alt="Queijo Quente">
+                    <div class="nomeproduto">
+                        <h3>Queijo Quente</h3>
+                        <h2>R$ 2,50</h2>
                     </div>
                 </a>
                 <a class="produto" href="../Desafio 01 Hands On/produtos_bebidas_quentes/prodcafeamericano.html">
@@ -97,6 +106,13 @@
                         <h2>R$ 6,00</h2>
                     </div>
                 </a>   
+                <a class="produto" href="produtos_comidas/proddonnut.html">
+                    <img class="imagemproduto" src="imagens/comidas/donnuts.png" alt="Donnut">
+                    <div class="nomeproduto">
+                        <h3>Donnut</h3>
+                        <h2>R$ 1,50</h2>
+                    </div>
+                </a>
                 <a class="produto" href="produtos_bebidas_frias/prodiced-peppermint-mocha.html">
                     <img class="imagemproduto" src="imagens/frios/iced-peppermint-mocha.png" alt="Iced Peppermint Mocha">
                     <div class="nomeproduto">
@@ -104,31 +120,7 @@
                         <h2>R$ 6,99</h2>
                     </div>
                 </a>
-            </section>
-        <h1>As melhores comidas</h1>
-            <section class="listadeproduto">
-                    <a class="produto" href="produtos_comidas/proddonnut.html">
-                        <img class="imagemproduto" src="imagens/comidas/donnuts.png" alt="Donnut">
-                        <div class="nomeproduto">
-                            <h3>Donnut</h3>
-                            <h2>R$ 1,50</h2>
-                        </div>
-                    </a>
-                    <a class="produto" href="produtos_comidas/prodqueijoquente.html">
-                        <img class="imagemproduto" src="imagens/comidas/queijoquente.png" alt="Queijo Quente">
-                        <div class="nomeproduto">
-                            <h3>Queijo Quente</h3>
-                            <h2>R$ 2,50</h2>
-                        </div>
-                    </a>
-                    <a class="produto" href="produtos_comidas/prodsanduiche.html">
-                        <img class="imagemproduto" src="imagens/comidas/sanduiche.png" alt="Sanduíche">
-                        <div class="nomeproduto">
-                            <h3>Sanduíche</h3>
-                            <h2>R$ 3,99</h2>
-                        </div>
-                    </a>
-            </section>  
+            </section> 
     </main>
     <footer>
         <p>Site criado por <strong>Leonardo Alves</strong> para o nanodegree da <strong>Gama Academy</strong>.</p>
