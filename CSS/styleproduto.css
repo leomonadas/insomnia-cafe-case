@@ -222,7 +222,7 @@ hr {
 
 .produto { 
     background-color: white;
-    width: 350px;
+    width: 300px;
     height: 300px;
     margin: 10px;
     padding: 10px;
@@ -260,6 +260,12 @@ hr {
     color: #483434;
 }
 
+.nomeproduto {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .comprar1 { 
     background-color: #FCDEC0;
     color: #483434;
@@ -272,7 +278,7 @@ hr {
     border-radius: 5px;
 }
 
-.comprar:hover {
+.comprar1:hover {
     background-color: #865439;
     color: white;
 }
@@ -324,11 +330,29 @@ footer {
 .produto img {
     width: 117px;
     height: 98px;
-    margin: 0px;
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
+.comprar{
+    padding: 10px 20px;
+}
+
+.produto {
+    width: 200px;
+    height: 260px;
+}
+
+.produto h2 {
+    font-size: 1.3em;
+}
+
+.nomeproduto {
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 550px) {
 .cabecalho {
     padding: 0em;
 }
@@ -398,9 +422,7 @@ h1 {
 }
 
 .produto {
-    display: flex;
-    flex-direction: row; 
     width: 80%;
-    height: 40%;    
+    height: 40%;   
 }  
 }

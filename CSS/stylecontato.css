@@ -195,7 +195,7 @@ footer {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
 .cabecalho {
     gap: 15px;
     margin: 0 10px;
@@ -227,7 +227,7 @@ footer {
 }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 550px) {
 .cabecalho {
     padding: 0em;
 }
