@@ -1,4 +1,4 @@
-![Insomnia Cafe](imagens/Insomnia%20Cafe-logos_transparent_edit.png =300x172)
+![Insomnia Cafe](imagens/logoreadme.png)
 # Insomnia Cafe
 ## Projeto desenvolvido por **Leonardo Alves** como atividade para o nanodegree Full-Stack da **Gama Academy**.
 
