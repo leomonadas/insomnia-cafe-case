@@ -1,4 +1,5 @@
-<div align="center">![Insomnia Cafe](imagens/logoreadme.png)</div>
+ ![Insomnia Cafe](imagens/logoreadme.png)
+
 # Insomnia Cafe :coffee:
 ## Projeto desenvolvido por **Leonardo Alves** como atividade para o nanodegree Full-Stack da **Gama Academy**.
 
