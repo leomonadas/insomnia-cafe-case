@@ -16,4 +16,6 @@ Tendo como inspiração a cafeteria do *sitcom* **FRIENDS**, foi decidido que a 
 
 A proposta foi deixar o site o mais *clean* possível, utilizando tons terrosos na paleta de cores, remetendo ao próprio café.
 
+<img src="imagens/insomniacafegif.gif" width="100%"/>
+
 :sparkles:[Confira o resultado final do site clicando aqui.](https://leomonadas.github.io/insomnia-cafe-case/):sparkles:
